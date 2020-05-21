@@ -1,0 +1,28 @@
+{% load bootstrap4 %}
+{% load static%}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    {% if title %}
+    <title>Discount web - {{title}}</title>
+    {% else %}
+    <title> Discount web </title>
+    {% endif %}
+    {% block styles %}
+    {% bootstrap_css %}
+    <link rel="stylesheet" href="{% static 'css/basestyle.css' %}">
+    {% endblock %}
+</head>
+
+<body>
+    {% include "search-bar.html" %}
+
+    {% block scripts %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    {% bootstrap_javascript %}
+    {% endblock %}
+</body>
+
+</html>
