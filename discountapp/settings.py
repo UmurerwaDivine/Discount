@@ -80,8 +80,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'discountbase',
-        'USER': 'divine',
-        'PASSWORD': 'divine123',
+        'USER': 'Bella',
+        'PASSWORD': 'bellamava',
     }
 }
 
@@ -126,3 +126,5 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
+
+ACCOUNT_ACTIVATION_DAYS = 7
