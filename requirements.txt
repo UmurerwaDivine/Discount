@@ -25,7 +25,7 @@ django-audiofield==0.10.0
 django-bootstrap3==11.1.0
 django-celery==3.3.0
 django-heroku==0.3.1
-django-registration==2.4.1
+django-registration==3.1.2
 django-tinymce==2.8.0
 dominate==2.3.5
 Flask==1.0.2
